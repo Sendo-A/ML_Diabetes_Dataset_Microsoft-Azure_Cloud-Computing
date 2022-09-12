@@ -1,8 +1,0 @@
-azureml==0.2.7
-azureml_train_restclients_hyperdrive==1.44.0
-inference_schema==1.4.2.1
-joblib==0.14.1
-numpy==1.21.5
-pandas==1.3.5
-scikit_learn==1.1.2
-streamlit==1.11.0
