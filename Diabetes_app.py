@@ -54,7 +54,7 @@ st.subheader("User Input parameters")
 st.write(df)
 
 
-model=joblib.load(open("D:/EHTP/Data engineering/Cloud computing/Q7/model.pkl","rb"))
+model=joblib.load(open("https://github.com/Sendo-A/Cloud-Computing/blob/main/model.pkl","rb"))
 prediction = model.predict(df)
 
 st.subheader('Class labels and their corresponding index number')
@@ -69,7 +69,7 @@ st.write(prediction_proba)
 
 if st.button("Predict"):
 
-    model=joblib.load(open("D:/EHTP/Data engineering/Cloud computing/Q7/model.pkl   ","rb"))
+    model=joblib.load(open("https://github.com/Sendo-A/Cloud-Computing/blob/main/model.pkl","rb"))
     prediction = model.predict(df)
     if prediction[0] == 1:
         st.write('Positive  With {} % Chance Of Getting diabetic'.format(round(prediction_proba[0][1]*100 , 2)))
