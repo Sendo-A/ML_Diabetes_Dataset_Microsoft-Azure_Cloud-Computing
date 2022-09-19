@@ -54,7 +54,7 @@ st.subheader("User Input parameters")
 st.write(df)
 
 
-model=pickle.load(open("model.pkl","rb"))
+model=joblib.load(open("model.pkl","rb"))
 prediction = model.predict(df)
 
 st.subheader('Class labels and their corresponding index number')
@@ -69,7 +69,7 @@ st.write(prediction_proba)
 
 if st.button("Predict"):
 
-    model=pickle.load(open("model.pkl","rb"))
+    model=joblib.load(open("model.pkl","rb"))
     prediction = model.predict(df)
     if prediction[0] == 1:
         st.write('Positive  With {} % Chance Of Getting diabetic'.format(round(prediction_proba[0][1]*100 , 2)))
