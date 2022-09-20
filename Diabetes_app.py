@@ -6,6 +6,7 @@ import sklearn
 import os
 import joblib
 from sklearn.model_selection import train_test_split
+import azureml.train.automl
 
 
 st.set_page_config(layout="wide")
