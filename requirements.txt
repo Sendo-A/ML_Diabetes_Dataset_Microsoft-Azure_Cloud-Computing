@@ -1,6 +1,6 @@
 azureml==0.2.7
 azureml_train_restclients_hyperdrive==1.44.0
-azureml-train-automl-runtime==1.44.0
+azureml-train-automl-runtime
 azureml-automl-runtime==1.44.0
 azureml-interpret==1.44.0
 azureml-defaults==1.44.0
