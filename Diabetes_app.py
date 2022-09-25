@@ -26,7 +26,6 @@ with st.sidebar:
 st.sidebar.header("User Input Parameters")
 
 
-
 def user_input_features():
     Pregnancies = st.sidebar.slider("Pregnancies", 0,17,step=1)
     Glucose = st.sidebar.slider("Glucose ", 0,199,step=1)
