@@ -1,9 +1,7 @@
-Sure! Below is a sample `README.md` file for a repository focused on practicing and learning about cloud services (Azure and GCP) for analysis and machine learning:
-
 ```markdown
-# Cloud Services for ML Practice
+# Analysis And ML using cloud services UI
 
-Welcome to the **Cloud Services for ML Practice** repository! This project is dedicated to exploring and learning how to use cloud services such as Azure and Google Cloud Platform (GCP) for data analysis and machine learning. 
+Welcome to my repo  dedicated to exploring and learning how to use cloud services such as Azure and Google Cloud Platform (GCP) for data analysis and machine learning. 
 
 ## Overview
 
