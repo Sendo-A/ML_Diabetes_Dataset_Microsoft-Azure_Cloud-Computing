@@ -8,6 +8,9 @@ This repository showcases my hands-on projects completed as part of the Google C
 
 ### 1. Exploring a BigQuery Public Dataset
 
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/bigquery_UI.png" alt="bigquery_ui" width="800">
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/bigquery_querying.png" alt="bigquery_querying" width="800">
+
 **Description:**  
 In this project, I explored and analyzed a public dataset available in Google BigQuery. The goal was to understand the dataset's structure and gain insights through SQL queries.
 
@@ -21,6 +24,9 @@ In this project, I explored and analyzed a public dataset available in Google Bi
 - `eda_report.ipynb`: Jupyter Notebook with EDA results and visualizations
 
 ### 2. Creating a Streaming Data Pipeline for a Real-Time Dashboard with Dataflow
+
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/bigquery_piplane_data.png.png" alt="piplane_bigquery" width="800">
+
 
 **Description:**  
 This project involved setting up a streaming data pipeline using Google Dataflow to feed real-time data into a dashboard. The pipeline processes data streams and performs real-time transformations.
@@ -36,6 +42,10 @@ This project involved setting up a streaming data pipeline using Google Dataflow
 
 ### 3. Predicting Visitor Purchases with BigQuery ML
 
+
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/big_query_ml.png" alt="ml_bigquery" width="800">
+
+
 **Description:**  
 In this project, I built a machine learning model using BigQuery ML to predict visitor purchases based on historical data. The project involved training and evaluating the model to generate actionable insights.
 
@@ -49,6 +59,11 @@ In this project, I built a machine learning model using BigQuery ML to predict v
 - `model_results_report.ipynb`: Jupyter Notebook with model evaluation results
 
 ### 4. Vertex AI Predicting Loan Risk with AutoML
+
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/vertexai_model_evaluation.png" alt="vertexai" width="800">
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/vertexai_confusion_matrix.png" alt="vertexai" width="800">
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/vertexai_features_contribution.png" alt="vertexai" width="800">
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/vertexai_deploying_testing.png" alt="vertexai" width="800">
 
 **Description:**  
 This project focused on using Vertex AI's AutoML capabilities to predict loan risk. The model was trained on historical loan data to assess the risk associated with new loan applications.
@@ -73,6 +88,6 @@ To explore or run the code in this repository, you will need:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/gcp-certification-projects.git
+   git clone https://github.com/your-username/repo_name.git
    cd gcp-certification-projects
 
