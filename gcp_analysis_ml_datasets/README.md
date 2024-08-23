@@ -25,7 +25,7 @@ In this project, I explored and analyzed a public dataset available in Google Bi
 
 ### 2. Creating a Streaming Data Pipeline for a Real-Time Dashboard with Dataflow
 
-<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/bigquery_piplane_data.png.png" alt="piplane_bigquery" width="800">
+<img src="https://github.com/Sendo-A/cloud_analysis_projects/blob/main/gcp_analysis_ml_datasets/photos/bigquery_piplane_data.png" alt="piplane_bigquery" width="800">
 
 
 **Description:**  
